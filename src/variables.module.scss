@@ -1,0 +1,22 @@
+// Base Colors
+$bg-color: #fdd7e4;
+$bg-color-alt: #c21d91;
+
+$primary: #000000;
+
+$secondary: #ffffff;
+$secondary-dark: #e62a91;
+
+$blue: #000000;
+
+// Helpers
+$border-color-primary: #e62a91;
+
+:export {
+	bgColor: $bg-color;
+	bgColorAlt: $bg-color-alt;
+	primary: $primary;
+	secondary: $secondary;
+	secondaryDark: $secondary-dark;
+	blue: $blue;
+}

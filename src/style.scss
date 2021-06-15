@@ -1,0 +1,128 @@
+@import './variables.module.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	color: $secondary-dark;
+	background-color: $bg-color;
+	border-color: $primary;
+	overflow-x: hidden;
+	hr {
+		border-top: 5px solid $bg-color-alt;
+	}
+}
+
+footer {
+	a {
+		color: $secondary;
+		text-decoration-line: underline;
+	}
+	a:visited {
+		color: $secondary-dark;
+	}
+}
+
+hr.bold {
+	border-top-width: 40px;
+}
+
+// Classes
+.c-primary {
+	color: $primary;
+}
+
+.c-secondary {
+	color: $secondary;
+}
+
+.c-blue {
+	color: $blue;
+}
+
+.c-bg-alt {
+	color: $bg-color-alt;
+}
+
+.bg-primary {
+	background-color: $primary;
+}
+
+.bg-d-blue {
+	background-color: $blue;
+}
+
+.img-white-shadow {
+	box-shadow: -25px -25px rgba(0, 0, 0, 0.4);
+}
+
+.img-filtered {
+	filter: brightness(90%) contrast(125%) grayscale(70%) saturate(40%);
+}
+
+@variants hover {
+	.bg-alt {
+		background-color: $bg-color-alt;
+	}
+
+	.bg-alt-light {
+		background-color: lighten($bg-color-alt, 5%);
+	}
+}
+
+@responsive {
+	.d-right {
+		right: 9rem;
+	}
+
+	.d-rotate-90-wrapper {
+		display: block;
+		position: relative;
+		top: 0;
+		right: 0;
+	}
+
+	.d-rotate-90 {
+		position: absolute;
+		top: 30vh;
+		right: 0;
+
+		/* Border is the new background */
+		background: none;
+
+		/* Rotate from top left corner (not default) */
+		transform-origin: top right;
+		transform: rotate(90deg);
+	}
+
+	.d-rotate-270-wrapper {
+		display: block;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+	.d-rotate-270 {
+		position: absolute;
+		top: 30vh;
+		left: 0;
+
+		/* Border is the new background */
+		background: none;
+
+		/* Rotate from top left corner (not default) */
+		transform-origin: top left;
+		transform: rotate(270deg);
+	}
+
+	.right-m-50 {
+		right: -50px;
+	}
+}
