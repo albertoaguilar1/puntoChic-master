@@ -31,11 +31,11 @@ function Proyecto() {
 						className='w-2/3'
 						src=''
 					/>
-					<img src='https://blogapi.uber.com/wp-content/uploads/2018/09/MX_Explora-esta-lista-de-X-museos-de-la-Ciudad-de-Me%CC%81xico.jpg' />
+					<img src='assets/img/revolucion.png' />
 				</div>
 				<div className='flex flex-col w-full lg:w-6/12 space-y-2'>
-					<img src='assets/img/biotina2.svg' />
-					<img src='assets/img/biotina2.svg' />
+					<img src='assets/img/revolucion.png' />
+					<img src='assets/img/revolucion.png' />
 				</div>
 			</div>
 			<div className='flex flex-col lg:flex-row justify-between relative mt-10 lg:mb-10 lg:right-m-50'>
@@ -57,7 +57,7 @@ function Proyecto() {
 				<div className='w-full lg:w-7/12'>
 					<img
 						className='w-full'
-						src='https://pulsosanluisrm.blob.core.windows.net.optimalcdn.com/images/2019/03/26/actividadessoumaya-focus-0-0-696-423.jpg'
+						src='assets/img/revolucion.png'
 					/>
 				</div>
 			</div>
