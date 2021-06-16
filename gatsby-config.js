@@ -7,8 +7,8 @@ module.exports = {
 		description:
 			'Lo mejor para tu cabello',
 		siteUrl: 'https://puntochic.com.mx',
-		image: 'assets/img/mexico_museos.jpeg',
-		twitterUsername: '@jaguilarh & @ElZombieIsra',
+		image: 'assets/img/banner_image.jpeg',
+		twitterUsername: '@jaguilarh',
 	},
 	plugins: [
 		'gatsby-plugin-typescript',
