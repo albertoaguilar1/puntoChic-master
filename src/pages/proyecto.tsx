@@ -21,7 +21,7 @@ function Proyecto() {
 						mejor atencion.
 					</div>
 					<div className='w-full lg:w-5/12'>
-						Bienvenidos aqui encontraras muchos.
+						Bienvenidos aqui encontraras lo que necesitas.
 					</div>
 				</div>
 			</div>
@@ -29,13 +29,13 @@ function Proyecto() {
 				<div className='flex flex-col w-full lg:w-6/12 space-y-2 mb-12 lg:mb-5 items-end'>
 					<img
 						className='w-2/3'
-						src='https://amaixico.com/wp-content/uploads/2018/04/frida-18.jpg'
+						src=''
 					/>
 					<img src='https://blogapi.uber.com/wp-content/uploads/2018/09/MX_Explora-esta-lista-de-X-museos-de-la-Ciudad-de-Me%CC%81xico.jpg' />
 				</div>
 				<div className='flex flex-col w-full lg:w-6/12 space-y-2'>
-					<img src='https://cdn-3.expansion.mx/dims4/default/9373d6f/2147483647/strip/true/crop/1200x800+0+0/resize/1800x1200!/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Faa%2F58%2F0a3ce11845dd97eb0c555959b4b0%2Fmuseo-de-antropologia.jpg' />
-					<img src='https://ntrzacatecas.com/content/uploads/2016/12/museo-del-estanquillo-3-1000x600.jpg' />
+					<img src='assets/img/biotina2.svg' />
+					<img src='assets/img/biotina2.svg' />
 				</div>
 			</div>
 			<div className='flex flex-col lg:flex-row justify-between relative mt-10 lg:mb-10 lg:right-m-50'>
@@ -50,12 +50,8 @@ function Proyecto() {
 						/>
 					</div>
 					<div className='text-lg c-primary font-semibold px-5 lg:pl-10'>
-						Nada del dinero recaudado se destinará para el portal o
-						sus integrantes. Todo el dinero recaudado será donado a
-						los museos participantes del proyecto, para que puedan
-						seguir con sus puertas abiertas, y será usado para
-						cubrir los costos de la plataforma de la experiencia
-						para mantener vivo el proyecto.
+						yeguada
+
 					</div>
 				</div>
 				<div className='w-full lg:w-7/12'>
@@ -73,11 +69,11 @@ function Proyecto() {
 						faraond1@gmail.com
 					</a>
 					{''}
-					para que inicie el análisis. de viabilidad e implementación.
+					para que te contactemos
 					{''}
 					<br />
 					<br />
-					Necesitamos emprendedores cualqueir persona será bienvenida.
+					Necesitamos emprendedores cualquier persona será bienvenida.
 					{''}
 					<br />
 					<div className='w-full my-5 lg:my-10'>

@@ -179,7 +179,7 @@ export default function index() {
 							zIndex: -1000,
 						}}
 						objectFit='cover'
-						alt='iUX Banner'
+						alt='revolucion'
 					/>
 					<div className='flex flex-col w-3/4 lg:w-1/6 c-bg-alt'>
 						<hr className='mr-10 mb-2' />
